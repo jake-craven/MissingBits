@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "767808481197",
+    "firebase_url": "https://missing-bits.firebaseio.com",
+    "project_id": "missing-bits",
+    "storage_bucket": "missing-bits.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767808481197:android:4287a2e12cb0dc59",
+        "android_client_info": {
+          "package_name": "com.colummullally.missing_bits"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767808481197-ddcu48hmd5sqi0kb01359seipp185l31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUmYaXFuLR0qwYusurZWbJ026BSliVNd8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

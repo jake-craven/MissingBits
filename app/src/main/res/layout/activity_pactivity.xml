@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pactivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.colummullally.missing_bits.Pactivity"
+    android:minWidth="176dp">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pAmount"
+        android:background="#ff2d96"
+        android:minHeight="20dp"
+        android:forceHasOverlappingRendering="false"
+        android:textColorLink="@android:color/background_light"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:minWidth="100dp" />
+
+    <TextView
+        android:text="Last Roll: 10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/diceView"
+        android:background="@android:color/holo_blue_dark"
+        android:minHeight="20dp"
+        android:textColorLink="@android:color/background_light"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textAlignment="viewEnd"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:minWidth="100dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/P1Name"
+        android:minHeight="80dp"
+        android:minWidth="160dp"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/pAmount"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/P2Name"
+        android:minHeight="80dp"
+        android:minWidth="160dp"
+        android:layout_above="@+id/P3Name"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAllCaps="false" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/P4Name"
+        android:minHeight="80dp"
+        android:minWidth="160dp"
+        android:layout_alignBaseline="@+id/P3Name"
+        android:layout_alignBottom="@+id/P3Name"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAllCaps="false" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/P3Name"
+        android:minHeight="80dp"
+        android:minWidth="160dp"
+        android:layout_below="@+id/P1Name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/P5Name"
+        android:minHeight="80dp"
+        android:minWidth="160dp"
+        android:layout_alignBaseline="@+id/P6Name"
+        android:layout_alignBottom="@+id/P6Name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/P6Name"
+        android:minHeight="80dp"
+        android:minWidth="160dp"
+        android:layout_below="@+id/P4Name"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAllCaps="false" />
+
+    <Button
+        android:text="End\nTurn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/endButton"
+        android:minHeight="80dp"
+        android:layout_alignBaseline="@+id/diceButton"
+        android:layout_alignBottom="@+id/diceButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ToggleButton
+        android:text="Banker View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewSwitch"
+        android:minHeight="40dp"
+        android:minWidth="160dp"
+        android:textOff="Banker View"
+        android:textOn="Player View"
+        android:layout_below="@+id/P0Name"
+        android:layout_alignLeft="@+id/P0Name"
+        android:layout_alignStart="@+id/P0Name" />
+
+    <Button
+        android:text="Banker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/P0Name"
+        android:minHeight="40dp"
+        android:minWidth="160dp"
+        android:layout_below="@+id/P7Name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:text="Roll\nDIce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/diceButton"
+        android:minHeight="80dp"
+        android:layout_alignTop="@+id/P0Name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/P8Name"
+        android:minHeight="80dp"
+        android:minWidth="160dp"
+        android:layout_alignBaseline="@+id/P7Name"
+        android:layout_alignBottom="@+id/P7Name"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAllCaps="false" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/P7Name"
+        android:minHeight="80dp"
+        android:minWidth="160dp"
+        android:layout_below="@+id/P5Name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iDie"
+        android:minHeight="22dp"
+        android:textColorLink="@android:color/background_light"
+        android:background="@android:color/holo_green_dark"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/pAmount"
+        android:layout_toLeftOf="@+id/diceView" />
+
+</RelativeLayout>
